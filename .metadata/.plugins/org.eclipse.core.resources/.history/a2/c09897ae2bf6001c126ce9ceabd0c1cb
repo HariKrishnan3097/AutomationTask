@@ -1,0 +1,41 @@
+package com.automation.todo.driversetup;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
+
+public class Tests {
+	
+	DriverFactory dFactory;
+	public WebDriver driver;
+
+	@BeforeSuite
+	public void OneTimeSetup() throws Exception {
+
+
+	}
+
+	@BeforeMethod()
+	@Parameters({ "browser", "TestProperty", "Env" , "Component" })
+
+	public void initDriver(String browser, String TestProperty, String Env , String Component) throws Exception {
+		dFactory = new DriverFactory(browser);
+		driver = dFactory.getDriver();
+		String AuthUrl = prop.getProp(TestProperty, Component, Env + "AuthUrl");
+		driver.get(AuthUrl);
+
+	}
+
+	@AfterMethod
+
+	public void cleanUp() {
+
+		//driver.close();
+		//driver.quit();
+		log.info("Driver Closed");
+	}
+
+
+}

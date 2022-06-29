@@ -1,0 +1,30 @@
+package com.automation.todo.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.automation.todo.utils.PropertyReader;
+import com.automation.todo.utils.ScreenshotHandler;
+
+public class TodoPages {
+	
+	
+	WebDriver driver;
+	Logger log;
+	ScreenshotHandler scr;
+	PropertyReader prop = new PropertyReader();
+	
+	public TodoPages(WebDriver driver) {
+		this.driver = driver;
+		scr = new ScreenshotHandler(driver);
+		log = (Logger) LogManager.getLogger(TodoPages.class);
+	}
+	
+	
+	@FindBy(how = How.XPATH, using = "//input")
+	WebElement inputField;
+
+}

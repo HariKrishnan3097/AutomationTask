@@ -1,0 +1,19 @@
+package com.automation.todo.utils;
+
+import java.io.File;
+
+public class CommonUtils {
+	
+	
+	public void CleanUpFolder(String path) {
+		File directory = new File(path);
+
+		File[] files = directory.listFiles();
+		for (File file : files) {
+
+			file.delete();
+
+		}
+	}
+
+}

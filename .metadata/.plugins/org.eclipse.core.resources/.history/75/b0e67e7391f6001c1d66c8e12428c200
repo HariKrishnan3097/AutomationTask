@@ -1,0 +1,14 @@
+package com.automation.todo.positive;
+
+import org.testng.annotations.Test;
+
+import com.automation.todo.driversetup.Tests;
+
+public class CreateNewTodoItemValidation extends Tests{
+	
+	@Test 
+	public void test() {
+		
+	}
+
+}

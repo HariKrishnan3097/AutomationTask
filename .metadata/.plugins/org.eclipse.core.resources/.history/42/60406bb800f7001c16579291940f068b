@@ -1,0 +1,4 @@
+Items=TodoTesting1,TodoTesting2,TodoTesting3,TodoTesting4,TodoTesting5,TodoTesting6
+CheckboxXpath1=//input[following-sibling::label[contains(., '
+CheckboxXpath2=')]]
+ItemstoDelete=TodoTesting4,TodoTesting5,TodoTesting6

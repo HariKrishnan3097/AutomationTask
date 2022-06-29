@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="com.automation.todo.driversetup.Tests"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.io.FileHandler"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="com.automation.todo.utils.ScreenshotHandler"/>
+    <fullyQualifiedTypeName name="com.automation.todo.utils.PropertyReader"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="com.automation.todo.utils.WebdriverUtils"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="com.automation.todo.utils.CommonUtils"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="com.automation.todo.pages.TodoPages"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

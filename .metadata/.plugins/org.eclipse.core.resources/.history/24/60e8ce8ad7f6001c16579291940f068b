@@ -1,0 +1,53 @@
+package com.automation.todo.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.automation.todo.utils.PropertyReader;
+import com.automation.todo.utils.ScreenshotHandler;
+import com.automation.todo.utils.WebdriverUtils;
+
+public class TodoPages {
+
+	WebDriver driver;
+	Logger log;
+	ScreenshotHandler scr;
+	PropertyReader prop = new PropertyReader();
+	WebdriverUtils utils;
+
+	public TodoPages(WebDriver driver) {
+		this.driver = driver;
+		scr = new ScreenshotHandler(driver);
+		log = (Logger) LogManager.getLogger(TodoPages.class);
+		utils = new WebdriverUtils(driver);
+	}
+
+	@FindBy(how = How.XPATH, using = "//input")
+	WebElement inputField;
+
+	public void addTaskFunctionality(String taskName, String className) {
+
+		try {
+
+			if (utils.fluentWait(inputField, 30)) {
+
+				inputField.click();
+				inputField.sendKeys(taskName);
+			} else {
+				utils.assertFailBlock(className, "Input field not found");
+			}
+
+		}
+
+		catch (Exception e) {
+
+			log.info("There was an Exception " + e);
+
+		}
+
+	}
+
+}

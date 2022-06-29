@@ -1,0 +1,26 @@
+package com.automation.todo.positive;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import com.automation.todo.driversetup.Tests;
+import com.automation.todo.utils.PropertyReader;
+import com.automation.todo.utils.ScreenshotHandler;
+\import org.apache.logging.log4j.Logger;
+public class CreateNewTodoItemValidation extends Tests{
+	
+	WebDriver driver;
+	Logger log;
+	ScreenshotHandler scr;
+	PropertyReader prop = new PropertyReader();
+	String className = this.getClass().getSimpleName();
+	
+	
+	@Test 
+	public void test() {
+		
+		
+		
+	}
+
+}

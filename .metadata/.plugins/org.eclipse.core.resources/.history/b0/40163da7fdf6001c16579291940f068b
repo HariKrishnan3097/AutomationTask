@@ -1,0 +1,80 @@
+package com.automation.todo.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+import java.util.List;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.automation.todo.utils.PropertyReader;
+import com.automation.todo.utils.ScreenshotHandler;
+import com.automation.todo.utils.WebdriverUtils;
+
+public class TodoPages {
+
+	WebDriver driver;
+	Logger log;
+	ScreenshotHandler scr;
+	PropertyReader prop = new PropertyReader();
+	WebdriverUtils utils;
+
+	public TodoPages(WebDriver driver) {
+		this.driver = driver;
+		scr = new ScreenshotHandler(driver);
+		log = (Logger) LogManager.getLogger(TodoPages.class);
+		utils = new WebdriverUtils(driver);
+	}
+
+	@FindBy(how = How.XPATH, using = "//input")
+	WebElement inputField;
+	
+	//(//label[text()='TodoTesting2']//preceding::input[@class='toggle'])
+
+	public void addTaskFunctionality(String taskName, String className) {
+
+		try {
+
+			if (utils.fluentWait(inputField, 30)) {
+
+				inputField.click();
+				inputField.sendKeys(taskName);
+				inputField.sendKeys(Keys.ENTER);
+			} else {
+				utils.assertFailBlock(className, "Input field not found");
+			}
+
+		}
+
+		catch (Exception e) {
+
+			log.info("There was an Exception " + e);
+
+		}
+
+	}
+
+	public void validateAddedTaskInList(String ExpectedTasks, String className) throws Exception {
+
+		List<WebElement> tasks = driver.findElements(By.xpath("//li/div/label"));
+
+		for (int i = 0; i < tasks.size(); i++) {
+
+			if (ExpectedTasks.equals(tasks.get(i).getText())) {
+				log.info("Added task is displayed under list " + tasks.get(i).getText());
+			}
+
+		}
+
+	}
+	
+	
+	public void clickCheckBoxFunctionality(String className) {
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.automation.todo.positive;
+
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import com.automation.todo.driversetup.Tests;
+import com.automation.todo.pages.TodoPages;
+import com.automation.todo.utils.CommonUtils;
+import com.automation.todo.utils.PropertyReader;
+import com.automation.todo.utils.ScreenshotHandler;
+
+public class ClearMultipleTaskValidation extends Tests {
+
+	WebDriver driver;
+	Logger log;
+	ScreenshotHandler scr;
+	PropertyReader prop = new PropertyReader();
+	String className = this.getClass().getSimpleName();
+	TodoPages todoPage;
+	CommonUtils commonUtils = new CommonUtils();
+	
+	
+}

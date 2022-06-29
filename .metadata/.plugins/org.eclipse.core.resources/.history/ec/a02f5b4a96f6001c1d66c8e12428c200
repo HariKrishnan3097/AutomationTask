@@ -1,0 +1,23 @@
+package com.automation.todo.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.automation.todo.utils.PropertyReader;
+import com.automation.todo.utils.ScreenshotHandler;
+
+public class TodoPages {
+	
+	
+	WebDriver driver;
+	Logger log;
+	ScreenshotHandler scr;
+	PropertyReader prop = new PropertyReader();
+	
+	public TodoPages(WebDriver driver) {
+		this.driver = driver;
+		scr = new ScreenshotHandler(driver);
+		log = (Logger) LogManager.getLogger(AdvisoriesPage.class);
+	}
+
+}
