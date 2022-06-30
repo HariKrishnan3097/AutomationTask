@@ -9,7 +9,7 @@
   <parameter name="browser" value="Chrome" />
 		<classes>
 			<class
-				name="com.automation.todo.positive.EditTaskValidation" />
+				name="com.automation.todo.negative.HtmlInjectionValidation" />
 		</classes>
   
   </test> <!-- Test -->

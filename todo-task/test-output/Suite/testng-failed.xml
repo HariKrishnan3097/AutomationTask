@@ -7,15 +7,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.automation.todo.positive.EditTaskValidation">
+      <class name="com.automation.todo.negative.HtmlInjectionValidation">
         <methods>
+          <include name="preTestExecution"/>
           <include name="oneTimeSetup"/>
           <include name="cleanUp"/>
-          <include name="EditTaskValidationTest"/>
-          <include name="preTestExecution"/>
+          <include name="HtmlInjectionValidationTest"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- com.automation.todo.positive.EditTaskValidation -->
+      </class> <!-- com.automation.todo.negative.HtmlInjectionValidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

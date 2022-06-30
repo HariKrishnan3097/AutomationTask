@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -61,6 +62,7 @@ public class TodoPages {
 		catch (Exception e) {
 
 			log.info("There was an Exception " + e);
+			Assert.fail("There was an Exception " + e);
 
 		}
 
