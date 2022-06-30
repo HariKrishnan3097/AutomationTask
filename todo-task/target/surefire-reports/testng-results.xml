@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74342" started-at="2022-06-30T04:17:38Z" finished-at="2022-06-30T04:18:52Z">
+    <groups>
+    </groups>
+    <test name="CreateNewTodoItemValidation" duration-ms="7498" started-at="2022-06-30T04:17:38Z" finished-at="2022-06-30T04:17:45Z">
+      <class name="com.automation.todo.positive.CreateNewTodoItemValidation">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:com.automation.todo.positive.CreateNewTodoItemValidation@e162a35]" name="initDriver" is-config="true" duration-ms="2124" started-at="2022-06-30T09:47:38Z" finished-at="2022-06-30T09:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="preTestExecution()[pri:0, instance:com.automation.todo.positive.CreateNewTodoItemValidation@e162a35]" name="preTestExecution" is-config="true" duration-ms="24" started-at="2022-06-30T09:47:40Z" finished-at="2022-06-30T09:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestExecution -->
+        <test-method status="PASS" signature="CreateNewTodoItemValidationTest()[pri:0, instance:com.automation.todo.positive.CreateNewTodoItemValidation@e162a35]" name="CreateNewTodoItemValidationTest" duration-ms="4596" started-at="2022-06-30T09:47:40Z" finished-at="2022-06-30T09:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTodoItemValidationTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.todo.positive.CreateNewTodoItemValidation@e162a35]" name="cleanUp" is-config="true" duration-ms="747" started-at="2022-06-30T09:47:45Z" finished-at="2022-06-30T09:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.todo.positive.CreateNewTodoItemValidation -->
+    </test> <!-- CreateNewTodoItemValidation -->
+    <test name="MarkAsCompleteValidation" duration-ms="29751" started-at="2022-06-30T04:17:45Z" finished-at="2022-06-30T04:18:15Z">
+      <class name="com.automation.todo.positive.MarkAsCompleteValidation">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:com.automation.todo.positive.MarkAsCompleteValidation@316d30ad]" name="initDriver" is-config="true" duration-ms="1659" started-at="2022-06-30T09:47:45Z" finished-at="2022-06-30T09:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="MarkAsCompleteValidationTest()[pri:0, instance:com.automation.todo.positive.MarkAsCompleteValidation@316d30ad]" name="MarkAsCompleteValidationTest" duration-ms="27375" started-at="2022-06-30T09:47:47Z" finished-at="2022-06-30T09:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkAsCompleteValidationTest -->
+        <test-method status="PASS" signature="preTestExecution()[pri:0, instance:com.automation.todo.positive.MarkAsCompleteValidation@316d30ad]" name="preTestExecution" is-config="true" duration-ms="0" started-at="2022-06-30T09:47:47Z" finished-at="2022-06-30T09:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestExecution -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.todo.positive.MarkAsCompleteValidation@316d30ad]" name="cleanUp" is-config="true" duration-ms="717" started-at="2022-06-30T09:48:14Z" finished-at="2022-06-30T09:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.todo.positive.MarkAsCompleteValidation -->
+    </test> <!-- MarkAsCompleteValidation -->
+    <test name="EditTaskValidation" duration-ms="7278" started-at="2022-06-30T04:18:15Z" finished-at="2022-06-30T04:18:23Z">
+      <class name="com.automation.todo.positive.EditTaskValidation">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:com.automation.todo.positive.EditTaskValidation@7910f355]" name="initDriver" is-config="true" duration-ms="1659" started-at="2022-06-30T09:48:15Z" finished-at="2022-06-30T09:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="preTestExecution()[pri:0, instance:com.automation.todo.positive.EditTaskValidation@7910f355]" name="preTestExecution" is-config="true" duration-ms="0" started-at="2022-06-30T09:48:17Z" finished-at="2022-06-30T09:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestExecution -->
+        <test-method status="PASS" signature="EditTaskValidationTest()[pri:0, instance:com.automation.todo.positive.EditTaskValidation@7910f355]" name="EditTaskValidationTest" duration-ms="4906" started-at="2022-06-30T09:48:17Z" finished-at="2022-06-30T09:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditTaskValidationTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.todo.positive.EditTaskValidation@7910f355]" name="cleanUp" is-config="true" duration-ms="711" started-at="2022-06-30T09:48:22Z" finished-at="2022-06-30T09:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.todo.positive.EditTaskValidation -->
+    </test> <!-- EditTaskValidation -->
+    <test name="ClearMultipleTasksValidation" duration-ms="20000" started-at="2022-06-30T04:18:23Z" finished-at="2022-06-30T04:18:43Z">
+      <class name="com.automation.todo.positive.ClearMultipleTasksValidation">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:com.automation.todo.positive.ClearMultipleTasksValidation@5bb7a59]" name="initDriver" is-config="true" duration-ms="1638" started-at="2022-06-30T09:48:23Z" finished-at="2022-06-30T09:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="preTestExecution()[pri:0, instance:com.automation.todo.positive.ClearMultipleTasksValidation@5bb7a59]" name="preTestExecution" is-config="true" duration-ms="2" started-at="2022-06-30T09:48:24Z" finished-at="2022-06-30T09:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestExecution -->
+        <test-method status="PASS" signature="ClearMultipleTasksValidationTest()[pri:0, instance:com.automation.todo.positive.ClearMultipleTasksValidation@5bb7a59]" name="ClearMultipleTasksValidationTest" duration-ms="17623" started-at="2022-06-30T09:48:24Z" finished-at="2022-06-30T09:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearMultipleTasksValidationTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.todo.positive.ClearMultipleTasksValidation@5bb7a59]" name="cleanUp" is-config="true" duration-ms="736" started-at="2022-06-30T09:48:42Z" finished-at="2022-06-30T09:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.todo.positive.ClearMultipleTasksValidation -->
+    </test> <!-- ClearMultipleTasksValidation -->
+    <test name="ValidateInputBoundaryNegativeCase" duration-ms="4450" started-at="2022-06-30T04:18:43Z" finished-at="2022-06-30T04:18:47Z">
+      <class name="com.automation.todo.negative.ValidateInputBoundaryNegativeCase">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:com.automation.todo.negative.ValidateInputBoundaryNegativeCase@754de353]" name="initDriver" is-config="true" duration-ms="1849" started-at="2022-06-30T09:48:43Z" finished-at="2022-06-30T09:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="preTestExecution()[pri:0, instance:com.automation.todo.negative.ValidateInputBoundaryNegativeCase@754de353]" name="preTestExecution" is-config="true" duration-ms="1" started-at="2022-06-30T09:48:44Z" finished-at="2022-06-30T09:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestExecution -->
+        <test-method status="PASS" signature="ValidateInputBoundaryNegativeCaseTest()[pri:0, instance:com.automation.todo.negative.ValidateInputBoundaryNegativeCase@754de353]" name="ValidateInputBoundaryNegativeCaseTest" duration-ms="1874" started-at="2022-06-30T09:48:44Z" finished-at="2022-06-30T09:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInputBoundaryNegativeCaseTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.todo.negative.ValidateInputBoundaryNegativeCase@754de353]" name="cleanUp" is-config="true" duration-ms="726" started-at="2022-06-30T09:48:46Z" finished-at="2022-06-30T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.todo.negative.ValidateInputBoundaryNegativeCase -->
+    </test> <!-- ValidateInputBoundaryNegativeCase -->
+    <test name="CancelEditValidation" duration-ms="5305" started-at="2022-06-30T04:18:47Z" finished-at="2022-06-30T04:18:52Z">
+      <class name="com.automation.todo.negative.CancelEditValidation">
+        <test-method status="PASS" signature="oneTimeSetup()[pri:0, instance:com.automation.todo.negative.CancelEditValidation@5885e231]" name="oneTimeSetup" is-config="true" duration-ms="11" started-at="2022-06-30T09:47:38Z" finished-at="2022-06-30T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetup -->
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:com.automation.todo.negative.CancelEditValidation@5885e231]" name="initDriver" is-config="true" duration-ms="2308" started-at="2022-06-30T09:48:47Z" finished-at="2022-06-30T09:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="CancelEditValidationTest()[pri:0, instance:com.automation.todo.negative.CancelEditValidation@5885e231]" name="CancelEditValidationTest" duration-ms="2299" started-at="2022-06-30T09:48:49Z" finished-at="2022-06-30T09:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelEditValidationTest -->
+        <test-method status="PASS" signature="preTestExecution()[pri:0, instance:com.automation.todo.negative.CancelEditValidation@5885e231]" name="preTestExecution" is-config="true" duration-ms="0" started-at="2022-06-30T09:48:49Z" finished-at="2022-06-30T09:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTestExecution -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.todo.negative.CancelEditValidation@5885e231]" name="cleanUp" is-config="true" duration-ms="696" started-at="2022-06-30T09:48:52Z" finished-at="2022-06-30T09:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.todo.negative.CancelEditValidation -->
+    </test> <!-- CancelEditValidation -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -5,12 +5,53 @@
 		<listener
 			class-name="com.automation.todo.reports.ExtendReportUtil" />
 	</listeners>
-  <test thread-count="5" name="Test">
-  <parameter name="browser" value="Chrome" />
+	<test thread-count="5" name="CreateNewTodoItemValidation">
+		<parameter name="browser" value="Chrome" />
 		<classes>
 			<class
-				name="com.automation.todo.negative.HtmlInjectionValidation" />
+				name="com.automation.todo.positive.CreateNewTodoItemValidation" />
 		</classes>
-  
-  </test> <!-- Test -->
+
+	</test> <!-- Test -->
+	<test thread-count="5" name="MarkAsCompleteValidation">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class
+				name="com.automation.todo.positive.MarkAsCompleteValidation" />
+		</classes>
+
+	</test> <!-- Test -->
+	<test thread-count="5" name="EditTaskValidation">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.automation.todo.positive.EditTaskValidation" />
+		</classes>
+
+	</test> <!-- Test -->
+	<test thread-count="5" name="ClearMultipleTasksValidation">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class
+				name="com.automation.todo.positive.ClearMultipleTasksValidation" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="ValidateInputBoundaryNegativeCase">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class
+				name="com.automation.todo.negative.ValidateInputBoundaryNegativeCase" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="CancelEditValidation">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.automation.todo.negative.CancelEditValidation" />
+		</classes>
+
+	</test> <!-- Test -->
+
 </suite> <!-- Suite -->

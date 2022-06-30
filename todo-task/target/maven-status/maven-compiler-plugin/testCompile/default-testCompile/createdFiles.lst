@@ -1,0 +1,8 @@
+com\automation\todo\positive\ClearMultipleTasksValidation.class
+com\automation\todo\negative\ValidateInputBoundaryNegativeCase.class
+com\automation\todo\positive\CreateNewTodoItemValidation.class
+com\automation\todo\positive\MarkAsCompleteValidation.class
+com\automation\todo\negative\AddMultipleTasksNegativeValidation.class
+com\automation\todo\positive\EditTaskValidation.class
+com\automation\todo\negative\HtmlInjectionValidation.class
+com\automation\todo\negative\CancelEditValidation.class

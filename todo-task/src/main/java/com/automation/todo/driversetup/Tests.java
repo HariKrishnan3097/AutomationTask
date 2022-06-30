@@ -20,9 +20,6 @@ public class Tests {
 	CommonUtils utils = new CommonUtils();
 	String pathToScreenshotFolder = prop.getConfigProp("Screenshotfolder");
 
-	
-	
-
 	@BeforeSuite
 	public void oneTimeSetup() throws Exception {
 
@@ -45,6 +42,8 @@ public class Tests {
 
 	public void cleanUp() {
 
+		driver.close();
+		driver.quit();
 		log.info("Test ends here");
 
 	}
