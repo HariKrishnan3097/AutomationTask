@@ -1,5 +1,5 @@
 # AutomationTask
-AutomationTask
+Frame work to automate to-do app (Hybrid framework) using selenium webdriver 3 and Java
 
 ## Build ##
 Install [maven](https://maven.apache.org/), [git](https://git-scm.com/) and  [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
