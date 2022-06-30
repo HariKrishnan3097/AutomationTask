@@ -34,7 +34,14 @@ Framework uses page object model design pattern and The @FindBy annotation is us
 AutomationFramework uses TestNg framework and TestNG.xml file which contains all the Test configuration and this XML file can be used to run and organize our test.
 Tests can be organized based on the priority.
 
+![image](https://user-images.githubusercontent.com/96883288/176685100-3e97cd66-b399-4ed0-bfc5-898f986def90.png)
 
+
+### Reporting ###
+
+ExtentReports is used as reporting library for the framework which creates HTML reports that is running from maven. It is integrated with TestNG framework using the listeners.
+
+Please find the sample HTML report under todo-task\TestReport folder in repo
 
 
 
