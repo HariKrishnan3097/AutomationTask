@@ -21,4 +21,21 @@ Install [maven](https://maven.apache.org/), [git](https://git-scm.com/) and  [JD
 * ValidateInputBoundaryNegativeCase - To validate the user is able to add a task having more than 100 char in input text.
 
 
+![image](https://user-images.githubusercontent.com/96883288/176601864-6108c344-9f77-41b6-b565-85fc1a4d105d.png)
+
+
+![image](https://user-images.githubusercontent.com/96883288/176602049-26e1e056-9415-44a1-8f3f-baba32fc867b.png)
+
+Framework uses page object model design pattern and The @FindBy annotation is used in Page Objects in Selenium tests to specify the object location strategy for a WebElement or a list of WebElements. Using the PageFactory, these WebElements are usually initialized when a Page Object is created. 
+
+
+![image](https://user-images.githubusercontent.com/96883288/176602227-b435d724-b98a-43bf-9224-dac5e2125e0c.png)
+
+AutomationFramework uses TestNg framework and TestNG.xml file which contains all the Test configuration and this XML file can be used to run and organize our test.
+Tests can be organized based on the priority.
+
+
+
+
+
 
